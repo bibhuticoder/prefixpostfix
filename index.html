@@ -1,0 +1,55 @@
+<html>
+
+<title>Prefix Postfix Infix</title>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+    <br>
+    <div id="output">
+        <table border="1" class="outputTable">
+            <tr>
+                <td colspan="2">
+                    <div class="input">
+                        <label class="lbl">Expression in infix : </label>
+                        <input type="text" class="form-control" id="expression" />
+                        <button id="btnCalculate" class="btn btn-success">Calculate</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="focus"> Postfix </label>
+                </td>
+                <td>
+                    <label class="focus"> Prefix </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="postfixSolution">....</div>
+                </td>
+                <td>
+                    <div id="prefixSolution">....</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label class="focus" id="finalAnswer"> Final Answer: ....</label>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/stack.js"></script>
+    <script type="text/javascript" src="js/prefixPostfix.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

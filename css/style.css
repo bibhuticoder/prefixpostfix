@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+#outputTable {
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px;
+    border-style: solid;
+}
+
+#outputTable tr td {
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#expression {
+    margin: 0 auto;
+    font-family: monospace;
+    width: 500px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.lbl {
+    margin-top: 2px;
+    margin-left: 30px;
+    font-size: 20px;
+    float: left;
+}
+
+label .focus {
+    font-weight: bolder;
+}
+
+.input {
+    padding: 10px;
+    text-align: left;
+}
+
+#output {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.outputTable {
+    width: 100%;
+}
+
+.outputTable tr td {
+    padding: 5px;
+    text-align: center;
+}
